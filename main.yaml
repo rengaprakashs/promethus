@@ -6,6 +6,6 @@
   - name: copy files
     copy: src=/home/renga5/workspace/moniotring/ dest=/home/renga5/renga/
   - name: create a deployment
-    command: sudo kubectl create -f /home/renga5/renga/prometheus-deployment.yaml
+    command: sudo kubectl create -f /home/renga5/renga/renga.yaml
   - name: service for kubernetes
     command: sudo kubectl create -f /home/renga5/renga/prometheus-service.yaml
